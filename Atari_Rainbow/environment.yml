@@ -1,0 +1,13 @@
+name: rainbow
+channels:
+  - pytorch
+dependencies:
+  - python=3.6
+  - plotly
+  - pytorch=1.4.0
+  - tqdm
+  - pip:
+    - atari-py
+    - opencv-python
+    - tb-nightly
+    - termcolor
