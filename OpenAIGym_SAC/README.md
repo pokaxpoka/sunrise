@@ -17,13 +17,10 @@ run:
 pip install -e .
 ```
 
-3. In order to use environments from ["benchmarking MBRL"](https://arxiv.org/abs/1907.02057),
+3. Install ["benchmarking MBRL"](https://arxiv.org/abs/1907.02057),
 ```
 pip uninstall gym
 pip install gym==0.9.4 mujoco-py==0.5.7 termcolor
-```
-and install environemtns:
-```
 cd mbbl_envs
 pip install --user -e .
 ```
